@@ -31,8 +31,9 @@ int main()
     fclose(fp);
     char str[i];
     strncpy(str,buffer,i);
-    char character = smallest_character(str,'a',i);
-    printf("%c\n", character);
+    char temp = 'a';
+    while(temp++ <= 'z')
+        smallest_character(str,temp,i);
     return 0;
 }
 
