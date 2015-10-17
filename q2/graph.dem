@@ -1,0 +1,8 @@
+set title "compare iterative  and recursive "
+set term png
+set output "compare_iterative_and_recursive.png"
+set xlabel "character"
+set ylabel "time"
+plot 'orig_time_iterative.txt' smooth csplines, \
+     'orig_time_recursive.txt' smooth csplines
+

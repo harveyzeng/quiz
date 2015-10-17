@@ -5,6 +5,8 @@
 *.list
 *.swp
 *.bak
+*.png
+*.txt
 iterative
 recursive
 main
